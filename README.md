@@ -170,15 +170,16 @@ Peers will be members who share similar rates of play and donation support.
 
 
 # Persistent Data
+ 
+## BETA TESTING
 
-BETA TESTING
-User profile		Love List		  Discarded Pets List		Donations		  Monthly Donations
-userID		      userID		    userID		            shelterID		  userID
-email		        petID		      petID		              Year-month		petID
-First Name		  shelterID		  shelterID		          Date sent		  shelterID
-Last Name		    amount donated				              Amount		    Year-month
-Foster flag		  Date Loved				                                Date sent
-Monthly donation		 		                                          Amount
+### User profile				  			  
+userID		    			       	 
+email		         	            	
+First Name		  	    		  
+Last Name		   			        	    
+Foster flag		  				                               
+Monthly donation
 Donation per loved pet		 	
 Total donated			
 Register Date	
@@ -188,10 +189,38 @@ last location (GPS coordinates)
 Inactive flag	
 Adopt flag	
 
-DELIVERY	
+### Love List
+userID
+petID		  
+shelterID		
+amount donated	
+Date Loved
+
+### Discarded Pets List	
+userID	
+petID	
+shelterID	         
+      
+### Monthly Donations
+userID
+Amount	
+petID 
+shelterID
+Year-month
+
+### Donations 
+shelterID	
+petID
+Year-month
+Date sent
+Amount	
+      
+
+## DELIVERY	
 Leaderboard	
 MainUserID	
 FriendID
+
 
 # Questions to answer / Ideas
 
