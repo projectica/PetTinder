@@ -24,7 +24,11 @@ PetFinder is a huge database of adoptable pets looking for a new home.
 
 PetTinder will be a mobile game that connects to the PetFinder API.  The objective of the game for the user is a pleasant passtime with the virtuous side effect of raising funds for pet shelters; as well as be a research tool for adoption,  after the game version is complete.
 
-The way it will work has some similarities with the Tinder app, hence it's name: pictures of pets are displayed, and user can whether swipe them right or left. The app will be location based, and the pets displayed will be located within a 500km radius from the user. There will be a social share button on this screen, so that user can share the pet on social networks before swiping.
+The way it works has similarities with the Tinder app, hence its name: pictures of pets are displayed, and user can swipe them right or left. 
+
+The app will be location based, and the pets displayed will be located within a 500km radius from the user. 
+
+There will be a social share button on the Pet Presentation screen, so that user can share the pet on social networks before swiping. This is also a way to grant free plays and viral game shares, as it entices people to either join the game, or view the pet at its shelter.
 
 When swiping right, more details are displayed about the pet, and this adds the pet to his/her list of Loved Pets.
 
