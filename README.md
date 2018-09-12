@@ -13,25 +13,34 @@ https://github.com/janerette/PetTinder
 
 Demo web app:	https://t.co/7GdDq7yZ2s	
 Demo app code:	PetTinder_web	
-PetFinder API documentation:	https://www.petfinder.com/developers/api-docs	
-NPM package to call PetFind API:	https://www.npmjs.com/package/pet-finder-api	
 
 
 # Technical Specifications  
+PetFinder API documentation:	https://www.petfinder.com/developers/api-docs	
+NPM package to call PetFind API:	https://www.npmjs.com/package/pet-finder-api	
 
-# General App Description:
-PetFinder is a huge database of adoptable pets looking for a new home. PetTinder will be a mobile game which will connect to the PetFinder API and will be a way to raise funds for pet shelters; as well as be a research tool for adoption,  after the game version is complete.
+## General App Description:
+PetFinder is a huge database of adoptable pets looking for a new home. 
+
+PetTinder will be a mobile game that connects to the PetFinder API.  The objective of the game for the user is a pleasant passtime with the virtuous side effect of raising funds for pet shelters; as well as be a research tool for adoption,  after the game version is complete.
+
 The way it will work has some similarities with the Tinder app, hence it's name: pictures of pets are displayed, and user can whether swipe them right or left. The app will be location based, and the pets displayed will be located within a 500km radius from the user. There will be a social share button on this screen, so that user can share the pet on social networks before swiping.
+
 When swiping right, more details are displayed about the pet, and this adds the pet to his/her list of Loved Pets.
+
 User can decide between 5$ and 10$ per month to donate. There will be a slide for user to select which amount will be donated per swipe. For each pet on his Love list, user will be able to click a link and donate directly to this pet’s shelter.
+
 User will have a Love list, where he/she can see the details of the loved pets and display the pet's details screen.
+
 When a pet gets adopted, user will get notified, and this pet will disappear from his/her loved list.
+
 There will be a leaderboard to list the users who gave the biggest amounts and shared the most pets.
+
 There will also be an admin web console where the app admin can access the database, and some statistics reports.
 
-# Screens description:			Screens can be seen from the How to Play PetTinder link above. This content was copied from and is available in a spreadsheet. 
+## Screens description:			Screens can be seen from the How to Play PetTinder link above. This content was copied from and is available in a spreadsheet. 
 
-## Splash Screen: 	
+### Splash Screen: 	
 
 Specifications 
 
@@ -45,7 +54,7 @@ registration screen 3:	FUTURE DEVELOPMENT: Capture flag "adopt" if user clicks o
  	
 Once registration is finished, go to the Welcome Tour screens:	
 
-## Welcome tour screens	
+### Welcome tour screens	
 After registration, the following welcome tour screens shall be displayed:	 	
 
 How to Play …
@@ -56,7 +65,7 @@ The first x Loves are on us …
 Get a donation receipt for your subscription
 
 
-## Pet screen	
+### Pet screen	
 This is the first screen of the game.
 Pressing on the top left Hamburger button shall display the app's menu	Go to App menu screens	
 Pressing on the top right Player button shall display the user's profile.	Go to User's profile screens	
@@ -65,7 +74,7 @@ This is the screen diplaying the pet's  picture, name, gender and breed, as retr
 
 Specifications
 Pets retrieved from the PetFinder API shall all be within a 500km radius from user's phone geolocation.	See PetFinder API documentation	
-Pets which are on the user's discarded pets list shall be filtered out from the pets retrieved		
+Pets which are on the user's discarded pets list shall be filtered out from the pets retrieved
 Pressing  the 'X' button shall do the same as swiping left		
 Pressing the heart button shall do the same as swiping right		
 Swiping right or pressing the heart button will add this pet to user's Love list, and display the pet's complete profile	Pet's profile screens	
@@ -79,7 +88,7 @@ The Share button shall be visible on the Pet screen, although it is not on the d
 Pressing on the top left button shall display the app's menu	Go to app menu screens	
 Pressing on the top right button shall display the user's profile (see below)	Go to user's profile screens	
 
-## Pet profile screens	
+### Pet profile screens	
 When user swipes right, the pet's detailed profile shall be displayed, and this pet shall be added to user's Love list	
 
 Specifications:	Links	
@@ -90,7 +99,7 @@ Pressing on the top left button shall display the app's menu	Go to app menu scre
 There will be as many "dots" displayed as pictures in the pet profile, so that user can swipe through all pictures provided.	
 Pressing on the top right button shall display the user's profile.	Go to user's profile screens	
 
-## User profile screens	
+### User profile screens	
 These screens shall be displayed when pressing the top right button, from all screens except the Welcome Tour and Registration screens	
 Specifications:		
 
@@ -112,9 +121,9 @@ Pressing on "Reset pet list" button will delete the user's discarded pets list
 Pressing on "Delete account" shall delete this user account completely. It should first ask user "are you sure you want to delete your account?".		
 There should also be an option to suspend the account. When user chooses this option, he will then get a pop-up to be able to choose a number of one to three months, or until user reactivates his account himself.		
 
-# Menu screens (Hamburger options):	
+## Menu screens (Hamburger options):	
 
-## 1) Love list	
+### 1) Love list	
 
 Specifications:	Links	
 This screen shall display all pets retrieved from the user's Love list		
@@ -124,35 +133,35 @@ From any pet on the Loved list, there shall be a link to make a donation to that
 // this needs editing… 
 Pressing on the top right button shall display the user's profile.	Go to user's profile screens	
 
-# 2) Welcome tour screens	
+### 2) Welcome tour screens	
 Same screens as above	
  
-# 3) Leaderboard	
+### 3) Leaderboard	
 
 Specifications:	Links	
 This screen shall display users in the same group. When user invites someone else to play PetTinder, he will see the invited user in his Leaderboard. The same way, if a user has been invited by another user, he will see the inviting user in his Leaderboard.	 	
 The total amount donated by this user shall be displayed for each user on the Leaderboard	 	
 Pressing on the top right button shall display the user's profile.	Go to user's profile screens	
 
-# 4) About PetTinder	
+### 4) About PetTinder	
 
 Specifications:	Links	
 This screen shall display information about PetTinder.	 	
 
-# 5) Become a foster home	
+### 5) Become a foster home	
 
 Specifications:	Links	
 This screen shall display information about why you should become a foster home, and how to use PetTinder to help you find a pet or shelter to foster for.	 	
 
-# 6) FAQ (will contain a link to the web page)	Specifications:	Links	
+### 6) FAQ (will contain a link to the web page)	Specifications:	Links	
 (no example screen)		This screen will display a list a frequently asked questions and answers, and a link to the PetTinder's website, where a form will be available to ask new questions	
 
 
-# Social media share button logic	
+### Social media share button logic	
 When user clicks on the share button, she will get the standard pop-up to choose on which media to share.	
 There will be a default text "Hi, I way this pet on PetTinder and thought of you", with a variable containing the link to see this pet.	
 
-# Back-end specs
+## Back-end specs
 
 //to develop
 
@@ -169,7 +178,7 @@ When receiving a request from a user who clicked on a link shared by another Pet
 Peers will be members who share similar rates of play and donation support.
 
 
-# Persistent Data
+## Persistent Data
  
 ## BETA TESTING
 
