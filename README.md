@@ -14,6 +14,8 @@ https://github.com/janerette/PetTinder
 Demo web app:	https://t.co/7GdDq7yZ2s	
 Demo app code:	PetTinder_web	
 
+*SEE the Wiki for all the details, including that which you see below!
+
 
 # Technical Specifications  
 PetFinder API documentation:	https://www.petfinder.com/developers/api-docs	
